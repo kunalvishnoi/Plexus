@@ -6,6 +6,7 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
 }
 	  input[type=email] {
     margin-left: 20px;
@@ -66,8 +67,8 @@
 }
 
 .log{
-  width: 300px;
-  margin-left: 20px;
+  width: 275px;
+  margin-left: 17px;
 }
 .plexus-head{
   font-size: 30px;
@@ -91,9 +92,10 @@ border: none;
   margin-top: 50px;
 }
 .margin-right-fp{
-  margin-right: 35px;
+  margin-right: 65px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and
+ (max-width: 768px){
 .margin-top-70{
   margin-top: 0px;
 }
@@ -101,4 +103,20 @@ border: none;
   margin-right: 5px;
 }
 
+}
+
+.form-control::-webkit-input-placeholder {
+ color: white;
+  }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+
+
+.navbar-custom{
+  background-color: #344151;
+  border: none;"
+}
+.margin-bottom-10{
+  margin-bottom: 10px;
 }
