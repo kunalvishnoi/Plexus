@@ -171,3 +171,15 @@ background-color: transparent  !important;
 textarea{
   resize: none;
 }
+.txt {
+    display:inline-block;
+    border: solid 1px #000;
+    min-height: 250px;
+width: 350px;
+color: white;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+     
+
+}
