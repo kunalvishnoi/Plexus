@@ -168,3 +168,6 @@ background-color: transparent  !important;
 
   line-height: 0px;
 }
+textarea{
+  resize: none;
+}
